@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="3">
+    <test name="Test1">
+        <classes>
+            <class
+                    name="com.nbc.core.RestClient">
+            </class>
+            <class
+                    name="com.tests.GetPostsByIdTest">
+            </class>
+            <class
+                    name="com.tests.GetPostsTest">
+            </class>
+            <class
+                    name="com.tests.GetCommentsByPostIdTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class
+                    name="com.tests.CreateUserTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Test3">
+        <classes>
+            <class
+                    name="com.tests.UpdateUserTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Test4">
+        <classes>
+            <class
+                    name="com.tests.DeleteUserTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Test5">
+        <classes>
+            <class
+                    name="com.tests.PartialUpdateUserTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Test6">
+        <classes>
+            <class
+                    name="com.tests.UpdateUserTest">
+            </class>
+        </classes>
+    </test>
+</suite>
